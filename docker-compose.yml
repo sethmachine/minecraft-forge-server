@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   mc:
-    image: itzg/minecraft-server
+    image: itzg/minecraft-server:java8-openj9
     tty: true
     stdin_open: true
     ports:
@@ -13,7 +13,9 @@ services:
       "VERSION": "1.12.2"
       "FORGE_VERSION": "14.23.5.2847"
       "ONLINE_MODE": "FALSE"
+      "MEMORY": "6G"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
       - ./mods:/mods:ro
+      - ./resources/mods-config:/config:ro
