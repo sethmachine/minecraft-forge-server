@@ -14,8 +14,8 @@ services:
       "FORGE_VERSION": "14.23.5.2847"
       "ONLINE_MODE": "FALSE"
       "MEMORY": "6G"
-      "MODPACK": "https://raw.githubusercontent.com/sethmachine/minecraft-forge-server/main/resources/server-mods-2023-12-21.zip"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
       - ./resources/mods-config:/config:ro
+      - ./mods:/mods:ro

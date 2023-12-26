@@ -19,4 +19,5 @@ Server should only include server side mods.  Mods that are client side only wil
 4.  On command line simply run `java -jar forge-1.12.2-14.23.5.2847-installer.jar`
 5. Open your mods folder and unzip the mods and all the jars to install them.  On macOS go to this folder:
    ```/Users/<your user name here>/Library/Application\ Support/minecraft/mods/```
-6. In the Minecraft launcher add a new launcher using forge.  
+6. In the Minecraft launcher add a new launcher using forge.
+7. Unzip the mods here: https://drive.google.com/file/d/1SyQaQjYvn9pMk4sHXjMU6RwqKcRwBQTw/view?usp=sharing
