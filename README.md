@@ -21,3 +21,10 @@ Server should only include server side mods.  Mods that are client side only wil
    ```/Users/<your user name here>/Library/Application\ Support/minecraft/mods/```
 6. In the Minecraft launcher add a new launcher using forge.
 7. Unzip the mods here: https://drive.google.com/file/d/1SyQaQjYvn9pMk4sHXjMU6RwqKcRwBQTw/view?usp=sharing
+
+
+## pregen
+
+docker exec -i 20093e684131 rcon-cli
+
+/pregen gen startradius square s s 400

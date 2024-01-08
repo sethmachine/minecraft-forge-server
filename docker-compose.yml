@@ -13,7 +13,8 @@ services:
       "VERSION": "1.12.2"
       "FORGE_VERSION": "14.23.5.2847"
       "ONLINE_MODE": "FALSE"
-      "MEMORY": "6G"
+      "MEMORY": "12G"
+      "MAX_TICK_TIME": "-1"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
